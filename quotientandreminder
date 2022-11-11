@@ -1,0 +1,11 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int num,denominator;
+    cin >> num >> denominator;
+    int quotient = num/denominator;
+    int reminder = num%denominator;
+    cout << "the quotient is: " << quotient << "\n";
+    cout << "the remider is: " << reminder << "\n";
+
+}
